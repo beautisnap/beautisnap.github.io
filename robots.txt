@@ -1,0 +1,18 @@
+
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Crawl-delay for all bots
+Crawl-delay: 10
+
+# Disallow common development and system files/directories
+Disallow: /api/
+Disallow: /.env
+Disallow: /.git
+Disallow: /.github
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.astro/
+
+Sitemap: https://beautisnap.github.io/sitemap-index.xml
